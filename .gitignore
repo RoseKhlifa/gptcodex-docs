@@ -1,6 +1,0 @@
-node_modules/
-docs/.vuepress/dist/
-docs/.vuepress/.temp/
-.claude/settings.local.json
-.DS_Store
-*.log
