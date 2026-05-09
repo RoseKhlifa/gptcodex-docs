@@ -1,0 +1,25 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs --port 8028 --host 0.0.0.0",
+    "build": "vuepress build docs",
+    "start": "npx serve docs/.vuepress/dist -l 8028 --no-clipboard"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.28",
+    "vue": "^3.5.32",
+    "vuepress": "^2.0.0-rc.28"
+  },
+  "devDependencies": {
+    "serve": "^14.2.6",
+    "typescript": "^6.0.3",
+    "vuepress-theme-plume": "^1.0.0-rc.196"
+  }
+}
